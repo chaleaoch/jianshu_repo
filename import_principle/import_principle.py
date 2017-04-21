@@ -7,6 +7,7 @@ module_a.module_b.function_b()
 # module_b.function_b()会报错
 
 import package_a #不会打印package_a_module_a
+<<<<<<< HEAD
 import package_a.package_a_module_a #会打印package_a_module_a
 
 '''
@@ -17,3 +18,6 @@ import module
 del module
 '''
 package_a.package_a_module_a_function_a()
+=======
+import package_a.package_a_module_a #会打印package_a_module_a
+>>>>>>> f330b4b5fef44aad76e7933da64bab9c100cf865
